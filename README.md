@@ -385,16 +385,16 @@ N1Plus-SciML/
 ├── Manifest.toml
 ├── CITATION.cff
 │
-├── src/
+├── 0src/
 │   └── N1PlusSciML.jl
 │
-├── examples/
+├── 1examples/
 │   └── N1Plus_SciML_Demo_v1.jl
 │
-├── test/
+├── 2test/
 │   └── runtests.jl
 │
-└── figures/
+└── 3figures/
     └── calibration_example.png
 ```
 ------------------------------------------------------------------------
