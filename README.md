@@ -294,9 +294,9 @@ The physical model remains explicit while the learned component represents syste
 
 The same differentiable representation can subsequently support:
 
-1.  **Learning to Model** --- identify unresolved dynamics from high-fidelity data.
-2.  **Learning to Optimize** --- embed the surrogate in dynamic-security optimization.
-3.  **Learning to Control** --- use the surrogate for constrained predictive control.
+1.  **Learning to Model**: identify unresolved dynamics from high-fidelity data.
+2.  **Learning to Optimize**: embed the surrogate in dynamic-security optimization.
+3.  **Learning to Control**: use the surrogate for constrained predictive control.
 
 ------------------------------------------------------------------------
 
