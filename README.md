@@ -214,7 +214,7 @@ Independent validation against ParaEMT/EMT trajectories is a separate research s
 The calibration problem is
 
 $$
-p^* = \mathop{\text{argmin}}\limits_{p}\mathcal{L}(p).
+p^* = \mathop{\text{argmin}}\limits_{p}\{\mathcal{L}(p)\}.
 $$
 
 The demonstration uses a normalized trajectory loss,
