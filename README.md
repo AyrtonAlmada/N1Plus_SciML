@@ -205,7 +205,7 @@ Independent validation against ParaEMT/EMT trajectories is a separate research s
 The calibration problem is
 
 $$
-p^* = \underset{p}{\arg\min}\; \mathcal{L}(p).
+p^* = \underset{p}{\arg\min}\\left\{ \mathcal{L}(p)\right\}.
 $$
 
 The demonstration uses a normalized trajectory loss,
@@ -245,7 +245,7 @@ where $L$ is the nominal network Laplacian, $b$ is the faulted-line susceptance,
 The state is
 
 $$
-x=\begin{bmatrix}\theta\\\omega\end{bmatrix},
+x=\begin{bmatrix}\theta\\ \omega\end{bmatrix},
 $$
 
 with phase angles $\theta$ and frequency-related states $\omega$.
@@ -283,7 +283,7 @@ In the full research workflow, high-fidelity EMT simulations provide reference t
 The corresponding calibration problem is
 
 $$
-(\alpha^*,\sigma^*) = \underset{\alpha,\sigma}{\operatorname{argmin}}\;\frac{\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2}{\left\|\theta^{\mathrm{EMT}}\right\|^2}.
+(\alpha^*,\sigma^*) = \underset{\alpha,\sigma}{\arg\min} \left\{\frac{\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2}{\left\|\theta^{\mathrm{EMT}}\right\|^2}\right\}.
 $$
 
 The present repository demonstrates the differentiable computationalmachinery needed to solve this type of problem.
