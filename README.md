@@ -274,28 +274,7 @@ $$
 (\alpha^{opt},\sigma^{opt})={\arg\min}_{\alpha,\sigma}\frac{\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2}{\left\|\theta^{\mathrm{EMT}}\right\|^2}.
 $$
 
-The present repository demonstrates the differentiable computationalmachinery needed to solve this type of problem.
-
-The intended workflow is:
-
-``` text
-High-fidelity EMT simulation
-            |
-            v
-     Reference trajectory
-            |
-            v
-   Differentiable N1Plus
-            |
-            v
-      Calibration loss
-            |
-            v
-  Automatic differentiation
-            |
-            v
-       Parameter update
-```
+The present repository demonstrates the differentiable computational machinery needed to solve this type of problem.
 
 ------------------------------------------------------------------------
 
