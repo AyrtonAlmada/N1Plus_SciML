@@ -205,7 +205,7 @@ Independent validation against ParaEMT/EMT trajectories is a separate research s
 The calibration problem is
 
 $$
-p^* = \underset{p}{\arg\min}\\left\{ \mathcal{L}(p)\right\}.
+p^* = {\arg\min}_{p}\left\{\mathcal{L}(p)\right\}.
 $$
 
 The demonstration uses a normalized trajectory loss,
@@ -245,7 +245,7 @@ where $L$ is the nominal network Laplacian, $b$ is the faulted-line susceptance,
 The state is
 
 $$
-x=\begin{bmatrix}\theta\\ \omega\end{bmatrix},
+x=\begin{bmatrix}\theta \\ \omega\end{bmatrix},
 $$
 
 with phase angles $\theta$ and frequency-related states $\omega$.
