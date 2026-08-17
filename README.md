@@ -245,7 +245,7 @@ where $L$ is the nominal network Laplacian, $b$ is the faulted-line susceptance,
 The state is
 
 $$
-x=\begin{bmatrix}\theta \\ \omega\end{bmatrix},
+x=\begin{bmatrix}\theta\\\\omega\end{bmatrix},
 $$
 
 with phase angles $\theta$ and frequency-related states $\omega$.
