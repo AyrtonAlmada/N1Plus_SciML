@@ -66,7 +66,7 @@ This repository takes the next step by making the reduced dynamical model **diff
 The model parameters are exposed to an optimization layer,
 
 $$
-p \longrightarrow x(t;p) \longrightarrow \mathcal{L}(p),
+p \mapsto x(t;p) \mapsto \mathcal{L}(p),
 $$
 
 and automatic differentiation provides
