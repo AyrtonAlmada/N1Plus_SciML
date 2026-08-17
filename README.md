@@ -445,7 +445,3 @@ If you use this code in your research, please cite the following publications.
 The NeuroMANCER reference is included because the repository follows a related SciML philosophy: differentiable dynamical models are treated as computational components that can be calibrated from data and subsequently embedded in optimization and control workflows.
 
 ------------------------------------------------------------------------
-
-## License
-
-This project is intended for research and educational use.
