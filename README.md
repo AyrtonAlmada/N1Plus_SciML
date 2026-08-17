@@ -283,7 +283,7 @@ In the full research workflow, high-fidelity EMT simulations provide reference t
 The corresponding calibration problem is
 
 $$
-(\alpha^*,\sigma^*)={\arg\min}_{\alpha,\sigma}\frac{\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2}{\left\|\theta^{\mathrm{EMT}}\right\|^2}.
+(\alpha^{*},\sigma^{*})={\arg\min}_{\alpha,\sigma}\frac{\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2}{\left\|\theta^{\mathrm{EMT}}\right\|^2}.
 $$
 
 The present repository demonstrates the differentiable computationalmachinery needed to solve this type of problem.
