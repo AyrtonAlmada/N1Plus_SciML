@@ -4,10 +4,7 @@
 
 This repository contains a compact **Scientific Machine Learning (SciML)** implementation of the **N1Plus** power-grid surrogate model.
 
-The example demonstrates how a physics-based dynamical model can be embedded in a differentiable simulation and optimization workflow. The implementation is connected to the research project:
-
-> **Differentiable Hybrid Surrogates for Learning, Optimization, and
-> Control of Power-Grid Dynamics**
+The example demonstrates how a physics-based dynamical model can be embedded in a differentiable simulation and optimization workflow. The implementation is connected to the research project: **Differentiable Hybrid Surrogates for Learning, Optimization, and Control of Power-Grid Dynamics**
 
 The computational workflow is:
 
