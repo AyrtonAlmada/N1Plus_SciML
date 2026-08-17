@@ -205,7 +205,7 @@ Independent validation against ParaEMT/EMT trajectories is a separate research s
 The calibration problem is
 
 $$
-p^* = {\arg\min}_{p}\left\{\mathcal{L}(p)\right\}.
+p^* = {\arg\min}_{p}\left{\mathcal{L}(p)\right}.
 $$
 
 The demonstration uses a normalized trajectory loss,
@@ -283,7 +283,7 @@ In the full research workflow, high-fidelity EMT simulations provide reference t
 The corresponding calibration problem is
 
 $$
-(\alpha^*,\sigma^*) = \underset{\alpha,\sigma}{\arg\min} \left\{\frac{\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2}{\left\|\theta^{\mathrm{EMT}}\right\|^2}\right\}.
+(\alpha^*,\sigma^*) = {\arg\min}_{\alpha,\sigma} \left{\frac{\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2}{\left\|\theta^{\mathrm{EMT}}\right\|^2}\right}.
 $$
 
 The present repository demonstrates the differentiable computationalmachinery needed to solve this type of problem.
