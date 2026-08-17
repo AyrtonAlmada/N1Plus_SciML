@@ -336,9 +336,6 @@ include("N1Plus_SciML_Demo_v1.jl")
 
 result = run_sciml_demo()
 ```
-
-Commit both `Project.toml` and `Manifest.toml` to preserve the computational environment.
-
 ------------------------------------------------------------------------
 
 ## Repository Structure
@@ -346,11 +343,9 @@ Commit both `Project.toml` and `Manifest.toml` to preserve the computational env
 ``` text
 N1Plus-SciML/
 │
-├── README.md
 ├── LICENSE
 ├── Project.toml
-├── Manifest.toml
-├── CITATION.cff
+├── README.md
 │
 ├── 0src/
 │   └── N1PlusSciML.jl
