@@ -1,0 +1,9 @@
+name = "N1PlusSciML"
+uuid = "7d3e4f4d-2b8d-4a4f-a5f6-2d6a7c8b9012"
+authors = ["Ayrton Almada"]
+version = "0.1.0"
+
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-af1d-2965f4b08c6d"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
