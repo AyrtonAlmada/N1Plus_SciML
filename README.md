@@ -15,10 +15,7 @@ N1Plus-SciML/
 ├── 1examples/
 │   └── N1Plus_SciML_Demo_v1.jl
 │
-├── 2test/
-│   └── runtests.jl
-│
-└── 3figures/
+└── 2figures/
     └── calibration_example.png
 ```
 ------------------------------------------------------------------------
