@@ -105,20 +105,6 @@ Pkg.add([
 ])
 ```
 
-Then verify the installation:
-
-``` julia
-using LinearAlgebra
-using DifferentialEquations
-using SciMLSensitivity
-using Optimization
-using OptimizationOptimJL
-using ForwardDiff
-using Plots
-
-println("N1Plus-SciML environment loaded successfully.")
-```
-
 ### Repository environment
 
 If `Project.toml` and `Manifest.toml` are included, the preferred
@@ -152,13 +138,13 @@ result = run_sciml_demo()
 
 The example reports:
 
--   true/reference parameters;
--   initial parameter estimates;
--   initial calibration gradient;
--   estimated parameters;
--   initial and final loss;
--   fault-clearing time;
--   fault-clearing relative squared error.
+-   True/reference parameters;
+-   Initial parameter estimates;
+-   Initial calibration gradient;
+-   Estimated parameters;
+-   Initial and final loss;
+-   Fault-clearing time;
+-   Fault-clearing relative squared error.
 
 It also produces a reference-versus-calibrated phase-angle plot.
 
@@ -256,11 +242,10 @@ with phase angles $\theta$ and frequency-related states $\omega$.
 The dynamics are
 
 $$
-\dot{\theta}=\omega,
-$$
-
-$$
+\begin{cases}
+\dot{\theta}=\omega, \\
 M\dot{\omega}=P-L(t)\theta-D\omega+\sigma q(t).
+\end{cases}
 $$
 
 During the fault interval,
