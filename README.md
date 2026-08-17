@@ -232,7 +232,7 @@ $$
 Thus,
 
 $$
-p\rightarrow f(x,p,t) \rightarrow x(t;p) \rightarrow \mathcal{L}(p) \rightarrow \nabla_p\mathcal{L}.
+p\mapsto f(x,p,t) \mapsto x(t;p) \mapsto \mathcal{L}(p) \mapsto \nabla_p\mathcal{L}.
 $$
 
 `SciMLSensitivity.jl` provides sensitivity analysis through the differential-equation solve, `ForwardDiff.jl` computes derivatives of the loss, and `Optimization.jl` with `OptimizationOptimJL.LBFGS()` performs the parameter calibration.
