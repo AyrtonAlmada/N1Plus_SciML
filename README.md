@@ -1,5 +1,28 @@
 # N1Plus-SciML
 
+## Repository Structure
+
+``` text
+N1Plus-SciML/
+│
+├── LICENSE
+├── Project.toml
+├── README.md
+│
+├── 0src/
+│   └── N1PlusSciML.jl
+│
+├── 1examples/
+│   └── N1Plus_SciML_Demo_v1.jl
+│
+├── 2test/
+│   └── runtests.jl
+│
+└── 3figures/
+    └── calibration_example.png
+```
+------------------------------------------------------------------------
+
 ## Differentiable Calibration of a Physics-Based Power-Grid Surrogate
 
 This repository contains a compact **Scientific Machine Learning (SciML)** implementation of the **N1Plus** power-grid surrogate model.
@@ -335,29 +358,6 @@ Then:
 include("N1Plus_SciML_Demo_v1.jl")
 
 result = run_sciml_demo()
-```
-------------------------------------------------------------------------
-
-## Repository Structure
-
-``` text
-N1Plus-SciML/
-│
-├── LICENSE
-├── Project.toml
-├── README.md
-│
-├── 0src/
-│   └── N1PlusSciML.jl
-│
-├── 1examples/
-│   └── N1Plus_SciML_Demo_v1.jl
-│
-├── 2test/
-│   └── runtests.jl
-│
-└── 3figures/
-    └── calibration_example.png
 ```
 ------------------------------------------------------------------------
 
