@@ -220,7 +220,7 @@ $$
 The demonstration uses a normalized trajectory loss,
 
 $$
-\mathcal{L}(p) = \frac{\left\|\theta(t;p)-\theta^{\mathrm{ref}}(t)\right\|_2^2}{\left\|\theta^{\mathrm{ref}}(t)\right\|_2^2+\varepsilon}.
+\mathcal{L}(p) = \frac{\mathbb{E}\left[\left\|\theta(\tau;p)-\theta^{\mathrm{ref}}(\tau)\right\|_2^2\right]}{\mathbb{E}\left[\left\|\theta^{\mathrm{ref}}(\tau)\right\|_2^2\right]}.
 $$
 
 The dynamical model is
@@ -294,7 +294,7 @@ In the full research workflow, high-fidelity EMT simulations provide reference t
 The corresponding calibration problem is
 
 $$
-(\alpha^{opt},\sigma^{opt})=\mathop{\text{argmin}}\limits_{\alpha,\sigma}\frac{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}-\theta^{\mathrm{N1Plus}}(\alpha,\sigma)\right\|^2\right]}{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}\right\|^2\right]}.
+(\alpha^{opt},\sigma^{opt})=\mathop{\text{argmin}}\limits_{\alpha,\sigma}\frac{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}(\tau)-\theta^{\mathrm{N1Plus}}_{(\alpha,\sigma)}(\tau)\right\|^2\right]}{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}(\tau)\right\|^2\right]}.
 $$
 
 The present repository demonstrates the differentiable computational machinery needed to solve this type of problem.
