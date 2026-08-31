@@ -10,6 +10,7 @@ N1Plus-SciML/
 ├── README.md
 │
 ├── 0src/
+│   └── AyrtonAlmadaDiffeHybSurr.pdf
 │   └── N1PlusSciML.jl
 │
 ├── 1examples/
