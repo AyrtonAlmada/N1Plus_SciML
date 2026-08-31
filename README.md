@@ -288,7 +288,7 @@ the nominal topology is restored.
 
 In the full research workflow, high-fidelity EMT simulations provide reference trajectories while the N1Plus model provides a computationally efficient reduced representation.
 
-The corresponding calibration problem is
+Let $\theta^{\mathrm{EMT}}(\tau)$ and $\theta^{\mathrm{N1Plus}}_{(\alpha,\sigma)}(\tau)$ denote the phase-angle states at fault clearing obtained from ParaEMT simulation and surrogate respectively, here $\tau\in\mathbb{R}^+$ represents the tripped line's re-energization instant. The corresponding calibration problem is
 
 $$
 (\alpha^{opt},\sigma^{opt})=\mathop{\text{argmin}}\limits_{\alpha,\sigma}\frac{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}(\tau)-\theta^{\mathrm{N1Plus}}_{(\alpha,\sigma)}(\tau)\right\|^2\right]}{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}(\tau)\right\|^2\right]}.
