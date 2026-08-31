@@ -295,7 +295,7 @@ $$
 (\alpha^{opt},\sigma^{opt})=\mathop{\text{argmin}}\limits_{\alpha,\sigma}\frac{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}(\tau)-\theta^{\mathrm{N1Plus}}_{(\alpha,\sigma)}(\tau)\right\|^2\right]}{\mathbb{E}\left[\left\|\theta^{\mathrm{EMT}}(\tau)\right\|^2\right]}.
 $$
 
-The present repository demonstrates the differentiable computational machinery needed to solve this type of problem.
+The present repository demonstrates the differentiable computational machinery needed to solve this type of problem. For a more detailed description of the methodology and underlying theoretical framework, please refer to `AyrtonAlmadaDiffeHybSurr.pdf`, available in the `0src` directory of this repository.
 
 ------------------------------------------------------------------------
 
